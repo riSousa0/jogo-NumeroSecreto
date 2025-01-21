@@ -35,6 +35,7 @@ function verificarChute() {
 }
 
 function reniciaJogo(){
+    tentativa = 1;
     limpaCampo();
     main();
     numeroSecreto = gerarNumeroAleatorio();
